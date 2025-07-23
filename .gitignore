@@ -1,0 +1,25 @@
+# ESP-IDF build files
+build/
+*.bin
+*.elf
+*.map
+*.log
+
+# SDK configuration
+sdkconfig
+sdkconfig.old
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Python cache
+__pycache__/
+*.pyc
+
+# CMake cache
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
